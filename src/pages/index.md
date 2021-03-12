@@ -1,6 +1,22 @@
 ---
 
-
+function startSlideShow(interval) {
+//var slides = $('#contain').children();
+var slides = $('#contain').children().get();
+console.log("0: " + slides);
+slides.each(function () {
+    console.log($(this));
+});
+for (var i = 0; i < slides.length; i++) {
+    setTimeout(
+        function () {
+            var slide = $(slides[i]).children();
+            console.log("1: " + slide);
+            $('#currentImage').attr('src', slide[0].src).fadeIn(interval * 100);
+            $('#slideDesc').html(slide[1].innerHTML).fadeIn(interval * 100);
+        }, interval * 1000);
+}
+}
 
 
 title: Home
