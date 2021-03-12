@@ -42,8 +42,7 @@ sections:
     title: Why Choose YourGoal?
     features:
       - title: Scopex, designed carefully to address 
-end-to-end management needs of all
-small and medium companies
+end-to-end management needs of all small and medium companies
         content: >-
           With Your Goal, you can create a dashboard with data about your
           activities and track your progress.
