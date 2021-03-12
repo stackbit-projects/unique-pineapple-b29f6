@@ -43,8 +43,8 @@ sections:
     features:
       - title: Scopex, designed carefully to address end-to-end management needs of all small and medium companies
         content: >-
-          With Your Goal, you can create a dashboard with data about your
-          activities and track your progress.
+          The depth of integration within Scopex helps users to reduce redundant manual processes. Every module is interconnected to provide an integrated experience from app to app, and users can automate many processes that would otherwise require manual inputs into multiple applications. 
+Scopex keeps all business functions in one place allowing teams to collaborate with other departments from one unified platform.
         actions:
           - label: Learn More
             url: /thank-you
